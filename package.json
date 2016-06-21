@@ -1,0 +1,17 @@
+{
+  "name": "mutant-hour-server",
+  "version": "0.1.0",
+  "description": "A node server for connecting to firebase and sending texts and emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Zach Millikan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.0.5",
+    "twilio": "^2.9.1"
+  }
+}
